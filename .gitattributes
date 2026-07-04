@@ -1,0 +1,14 @@
+# Ignore frontend assets and vendor libraries
+static/vendor/** linguist-vendored
+static/css/** linguist-vendored
+static/scss/** linguist-vendored
+static/js/** linguist-vendored
+static/img/** linguist-generated
+
+# Ignore HTML templates for language statistics
+templates/** linguist-vendored
+
+# Ignore documentation and screenshots
+docs/** linguist-documentation
+screenshots/** linguist-documentation
+uploads/** linguist-generated
